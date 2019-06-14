@@ -84,6 +84,7 @@ video {
   padding: 0;
   border: 0;
   font-size: 100%;
+  font-family: Roboto, sans-serif;
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
@@ -149,7 +150,7 @@ a:active {
   left: 0;
   width: 100vw;
   height: 30px;
-  background: rgb(64, 189, 151);
+  background: black;
 }
 
 .nav-list {
@@ -182,7 +183,7 @@ a:active {
 
 .home {
   width: 100%;
-  height: 50vh;
+  height: calc(100vh - 30px);
 
   margin-top: 30px;
 
@@ -193,7 +194,6 @@ a:active {
 
   text-align: center;
 
-  background: rgb(64, 160, 189);
 }
 
 .home h1 {
@@ -375,7 +375,8 @@ a:active {
 /************/
 
 .footer {
-  background: rgb(64, 189, 151);
+  background: black;
+  color: white;
   text-align: center;
   font-size: 1.2em;
   padding: 0.7em;
