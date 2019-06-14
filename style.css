@@ -379,4 +379,8 @@ a:active {
 }
 
 @media (min-width: 480px) {
+  .project   {
+    max-width: 860px;
+    margin: 10px auto;
+  }
 }
