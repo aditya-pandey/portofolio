@@ -10,7 +10,7 @@ Please leave a comment for any idea, criticism or whatever, I'll take everything
 *   Add real stuff in projects
 ### CSS
 *   Finish the responsiveness of the page
-**  medium and large devices (>760px & >1080px)
+* *  medium and large devices (>760px & >1080px)
 *   Pick fonts for title and text
 *   Improve general style
 ### Javascript
