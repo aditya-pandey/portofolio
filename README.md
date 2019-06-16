@@ -13,9 +13,22 @@ Please leave a comment for any idea, criticism or whatever, I'll take everything
 * *  medium and large devices (>760px & >1080px)
 *   Pick fonts for title and text
 *   Improve general style
+    * background image
+    * black filter
+    * buttons
 ### Javascript
+* Change the nav bar on scroll
+* Animate in elements on scroll.
+* Implement a tabbed UI, say for the project items.
+* Implement a modal for the project items that opens when you click for more info.
+* Parallax using JS.
+* Implement smooth scrolling with inertia using JS.
+* Create your own utility libraries for different DOM interactions.
+* Switch to a framework and do “everything” in JS.
 
 ### Learning
+This section will be my list of subject to learn. My goal is to help me improve for interviews.
+For now I'll do it int [interview.html](interview.html)
 
 ## License
 
