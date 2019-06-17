@@ -5,13 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Oswald|Roboto|Saira+Semi+Condensed:400,700&display=swap" rel="stylesheet">
-    
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans|Oswald|Roboto|Saira+Semi+Condensed:400,700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>JohnPA</title>
   </head>
 
   <body>
     <nav class="nav">
+      <h1>JOHNPA</h1>
       <ul class="nav-list">
         <li class="nav-item">
           <a class="nav-link" href="#home">Home</a>
@@ -26,21 +30,23 @@
     </nav>
 
     <section class="home" id="home">
-      <h1>JohnPA</h1>
-      <h2>Frontend Developer</h2>
-      <p class="home-desc">
-        Interested in working <b>remotly</b> as a JS developer. <br />
-        Find more <a href="#about">about me</a> in bellow sections.
-      </p>
-      <div class="social">
-        <a class="btn-github" href="https://github.com/JohnPAfr">
-          <i class="fab fa-github"></i>
-          Github
-        </a>
-        <a class="btn-resume" href="https://google.com">
-          <i class="fas fa-file-pdf"></i>
-          Resume
-        </a>
+      <div class="filter home-container">
+        <h1>JohnPA</h1>
+        <h2>Frontend Developer</h2>
+        <p class="home-desc">
+          Interested in working <b>remotly</b> as a JS developer. <br />
+          Find more <a href="#about">about me</a> in bellow sections.
+        </p>
+        <div class="social">
+          <a class="btn-github" href="https://github.com/JohnPAfr">
+            <i class="fab fa-github"></i>
+            Github
+          </a>
+          <a class="btn-resume" href="https://google.com">
+            <i class="fas fa-file-pdf"></i>
+            Resume
+          </a>
+        </div>
       </div>
     </section>
 
@@ -48,11 +54,30 @@
       <h2>projects</h2>
       <div class="project">
         <div class="project-desc">
-          <img src="https://picsum.photos/100" alt="project-img" />
+          <div class="filter">
+            <!-- <img src="https://picsum.photos/200" alt="project-img" /> -->
+            <h3 class="project-title">title</h3>
+            <ul class="project-techs">
+              <li style="background: orangered"><b>HTML</b></li>
+              <li style="background: blue"><b>CSS</b></li>
+              <li style="background: yellow"><b>JAVASCRIPT</b></li>
+            </ul>
+            <div class="project-links">
+              <div class="btn project-github">github</div>
+              <div class="btn project-live">live code</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="project">
+        <div class="project-desc">
+          <!-- <img src="https://picsum.photos/100" alt="project-img" /> -->
           <h3 class="project-title">title</h3>
-          <p class="project-description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          </p>
+          <ul class="project-techs">
+            <li style="background: orangered">HTML</li>
+            <li style="background: blue">CSS</li>
+            <li style="background: yellow">JAVASCRIPT</li>
+          </ul>
           <div class="project-links">
             <div class="btn project-github">github</div>
             <div class="btn project-live">live code</div>
@@ -61,24 +86,13 @@
       </div>
       <div class="project">
         <div class="project-desc">
-          <img src="https://picsum.photos/100" alt="project-img" />
+          <!-- <img src="https://picsum.photos/100" alt="project-img" /> -->
           <h3 class="project-title">title</h3>
-          <p class="project-description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          </p>
-          <div class="project-links">
-            <div class="btn project-github">github</div>
-            <div class="btn project-live">live code</div>
-          </div>
-        </div>
-      </div>
-      <div class="project">
-        <div class="project-desc">
-          <img src="https://picsum.photos/100" alt="project-img" />
-          <h3 class="project-title">title</h3>
-          <p class="project-description">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-          </p>
+          <ul class="project-techs">
+            <li style="background: orangered">HTML</li>
+            <li style="background: blue">CSS</li>
+            <li style="background: yellow">JAVASCRIPT</li>
+          </ul>
           <div class="project-links">
             <div class="btn project-github">github</div>
             <div class="btn project-live">live code</div>
