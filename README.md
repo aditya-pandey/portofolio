@@ -32,9 +32,15 @@ For now I'll do it int [interview.html](interview.html)
 
 
 ### 27/06/19
+----15h30----
 Redesign for 320 to 480
 Need to learn parallax for a smooth nav bar going with a position top X to 0.
 Need to implement cool animation for tile project to display tech used and links to github and live code.
+
+----17h30----
+Responsive for 620
+Nav stay on top for now
+I've the idea to make a responsive resume with html css that open when clicked (play with the display or z-index or something like that).
 
 
 ## License
