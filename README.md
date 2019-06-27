@@ -43,6 +43,14 @@ Nav stay on top for now
 I've the idea to make a responsive resume with html css that open when clicked (play with the display or z-index or something like that).
 
 
+### Ideas
+*   Navigation
+    *   When scroll move the nav to the left with a visualization of where you are or how much left with a bar.
+    *   Use parallax for a smooth animation
+*   Resume
+    *   Make html/css responsive resume that show/hide with css or JS.
+
+
 ## License
 
 Project under MIT License. See the [LICENSE.md](LICENSE.md) file for details
