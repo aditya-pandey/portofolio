@@ -30,6 +30,13 @@ Please leave a comment for any idea, criticism or whatever, I'll take everything
 This section will be my list of subject to learn. My goal is to help me improve for interviews.
 For now I'll do it int [interview.html](interview.html)
 
+
+### 27/06/19
+Redesign for 320 to 480
+Need to learn parallax for a smooth nav bar going with a position top X to 0.
+Need to implement cool animation for tile project to display tech used and links to github and live code.
+
+
 ## License
 
 Project under MIT License. See the [LICENSE.md](LICENSE.md) file for details
