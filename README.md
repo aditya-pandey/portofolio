@@ -42,6 +42,10 @@ Responsive for 620
 Nav stay on top for now
 I've the idea to make a responsive resume with html css that open when clicked (play with the display or z-index or something like that).
 
+### 28/06/19
+----11h----
+Working on project hover with css.
+
 
 ### Ideas
 *   Navigation

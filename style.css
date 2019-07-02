@@ -324,10 +324,14 @@ a:active {
   height: 250px;   
   margin: 20px auto;
 
-  border-radius: 2px;
+  border-radius: 5px;
   box-shadow: 5px 5px 36px -15px rgba(0, 0, 0, 0.5);
-  background: white;
-} 
+
+  background-image: url('https://picsum.photos/500');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
 
 .project-desc {
   width: 100%;
@@ -336,30 +340,40 @@ a:active {
   display: flex;
   flex-direction: column;
 
-  background: url('https://picsum.photos/300');
-  background-clip: border-box;
+  background-color: rgba(77, 77, 77, 0.5);
+  overflow: hidden;
 
-  border: 5px solid white;
+  opacity: 0;
+
+  transition: all 0.3s ease-in-out;
+}
+
+.project-desc:hover {
+  opacity: 1;
 }
 
 .project-title {
-  width: 100%;
-  padding: 1em 0;
+  width: fit-content;
+  margin: 0.5em auto 0.5em 1em;
+  padding: 0 5px;
 
   font-size: 1.6em;
   letter-spacing: 4px;
-  color: var(--color-primary);
-  background: white;
+  color: white;
+  background: var(--color-primary);
   text-transform: uppercase;
   text-align: center;
 }
+
 .project-techs {
-  align-self: left;
+  align-self: flex-end;
 
   display: flex;
   flex-direction: row;
 
-  display: none;
+  margin-right: 0.5em;
+
+  color: white;
 }
 
 .project-techs li {
@@ -368,30 +382,42 @@ a:active {
   padding: 5px;
   font-family: 'Roboto', sans-serif;
   font-size: 0.8em;
-  border-radius: 5px;
-  text-shadow: 1px 1px 1px #000;
+  letter-spacing: 2px;
+  background-color: var(--color-primary);
 }
 
-.project-links {
-  justify-self: flex-end;
-  align-self: flex-end;
+.project-links {  
+  width: 70%;
+
+  align-self: center;
 
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-evenly;  
 
-  font-size: 12px;
+  font-size: 16px;
+  margin-top: 5em;
   padding: 0.5em;
 
-  display: none;
+  color: var(--color-primary);
+
 }
 
 .btn {
-  padding: 4px;
+  padding: 8px;
   margin-right: 8px;
 
-  border: 1px solid black;
-  border-radius: 5px;
+  
+  background-color: rgba(0,0,0,0.2);
+  border: 2px solid var(--color-primary);
+  border-radius: 0px;
+
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.95);
 }
 
 /***********/
@@ -431,6 +457,12 @@ a:active {
   padding: 0.7em;
 }
 
+@media (min-width: 480px) {
+  .about-text {
+    max-width: 400px;
+  }
+}
+
 @media (min-width: 620px) {
   .home-desc {
     line-height: 2em;
@@ -438,10 +470,6 @@ a:active {
 
   .project {
     width: 450px;
-  }
-
-  .project-desc {
-    background: url('https://picsum.photos/450');
   }
 
   .about-text {
