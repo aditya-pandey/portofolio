@@ -137,6 +137,7 @@ a:active {
 
 :root {
   --color-primary: rgba(70, 211, 152);
+  /** background-image: linear-gradient(to right bottom, #d1ffeb, #bff9e1, #acf2d8, #98eccf, #82e5c7, #74e1c1, #65ddbc, #54d9b6, #4ad7b1, #3fd4ac, #32d2a7, #21cfa2); **/
 }
 
 /****************/

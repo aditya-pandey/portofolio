@@ -46,6 +46,18 @@ I've the idea to make a responsive resume with html css that open when clicked (
 ----11h----
 Working on project hover with css.
 
+### 12/07/19
+Today i want to finish the responsiveness.
+Next, change the style, color style, make some gradient.
+Then change the color when moving from one part to another.
+And may be add some clip-path.
+
+-   Finish responsive for bigger screen
+-   Update hover effect
+-   Update card style
+-   Update button style
+-   Make one JS task
+
 
 ### Ideas
 *   Navigation
