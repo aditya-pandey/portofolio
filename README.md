@@ -3,7 +3,7 @@ Welcome to my portofolio project. You'll find everything i'm doing to learn and 
 Go watch my code and see how I organize my work.
 Please leave a comment for any idea, criticism or whatever, I'll take everything in consideration.
 
-## Listing the tasks
+## Task list    
 
 ### HTML
 *   Improve about section

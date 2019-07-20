@@ -132,6 +132,10 @@ a:active {
   outline: none;
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 /************************************************************************************************************************/
 /** VARIABLES **/
 
@@ -156,6 +160,8 @@ a:active {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  z-index: 0; 
 }
 
 .nav-list {
@@ -172,10 +178,6 @@ a:active {
   width: 100%;
   height: 100%;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   color: var(--color-primary);
 
   transition: all 300ms ease-in-out;  
@@ -186,15 +188,22 @@ a:active {
   color: white;
 }
 
+.nav-link {
+  width: 100%;
+  height: 100%;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /**********/
 /** HOME **/
 /**********/
 
 .home {
   width: 100%;
-  height: calc(100vh - 40px);
-
-  margin-top: 40px;
+  height: 100vh;
 
   text-align: center;
   border-bottom: 2px solid var(--color-primary);
@@ -236,11 +245,10 @@ a:active {
   padding: 0 8px;
 
   font-size: 0.9em;
-  line-height: 1.4em;
+  line-height: 1.7em;
 }
 
 .home-desc a {
-  font-size: 1.2em;
   letter-spacing: 2px;
 
   background: var(--color-primary);
@@ -249,7 +257,7 @@ a:active {
 }
 
 .home-desc a:hover {
-  color: blue;
+  padding: 4px;
 }
 
 .social {
@@ -262,40 +270,21 @@ a:active {
   margin: 5em 2em;
 }
 
-.btn-github {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.home-btn {
+  padding: 0.5em 1em;
 
-  padding: 4px 16px;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+  border-radius: 25px;
 
-  font-weight: 600;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.25);
 
-  background: black;
+  transition: all 150ms ease-in-out;
+}
+
+.home-btn:hover {
+  background: var(--color-primary);
   color: white;
-  border-radius: 5px;
-}
-
-.btn-github i {
-  margin-right: 10px;
-}
-
-.btn-resume {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  padding: 8px 16px;
-
-  font-weight: 600;
-
-  background: rgb(202, 28, 28);
-  color: white;
-  border-radius: 5px;
-}
-
-.btn-resume i {
-  margin-right: 10px;
 }
 
 /**************/
@@ -307,7 +296,8 @@ a:active {
   border-bottom: 2px solid var(--color-primary);
 }
 
-.projects h2 {
+.projects h2 {  
+  margin-top: 1em;
   padding: 1em;
 
   font-size: 1.4em;
@@ -405,20 +395,20 @@ a:active {
 }
 
 .btn {
-  padding: 8px;
+  padding: 0.5em 1em;
   margin-right: 8px;
 
   
   background-color: rgba(0,0,0,0.2);
   border: 2px solid var(--color-primary);
-  border-radius: 0px;
+  border-radius: 25px;
 
   transition: all 0.3s;
 }
 
 .btn:hover {
   cursor: pointer;
-  background-color: rgba(255, 255, 255, 0.95);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 /***********/
@@ -435,7 +425,7 @@ a:active {
   text-align: center;
   text-transform: uppercase;
 
-  padding: 1em;
+  padding:  1em 1em 0.5em 1em;
 }
 
 .about-text {
@@ -444,6 +434,10 @@ a:active {
   padding: 0 1em;
 
   line-height: 1.4em;
+}
+
+.about-text p {
+  margin-top: 1em;
 }
 
 /************/
@@ -474,6 +468,24 @@ a:active {
   }
 
   .about-text {
-    max-width: 450px;
+    max-width: 600px;
+
+    margin-top: .5em;
+    margin-bottom: 3em; 
+  }
+
+  .about-text p {
+    margin-top: 1.5em;
+  }
+}
+
+@media (min-width: 960px) {
+  .project {
+    width: 600px;
+    margin: 40px auto;
+  }
+
+  .project-techs {
+    margin-top: 20px; 
   }
 }

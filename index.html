@@ -14,7 +14,7 @@
 </head>
 
 <body>
-  <nav class="nav">
+  <nav class="nav" id="nav">
     <ul class="nav-list">
       <li class="nav-item">
         <a class="nav-link" href="#home">Home</a>
@@ -37,12 +37,10 @@
         Find more <a href="#about">about me</a> in bellow sections.
       </p>
       <div class="social">
-        <a class="btn-github" href="https://github.com/JohnPAfr">
-          <i class="fab fa-github"></i>
+        <a class="home-btn" href="https://github.com/JohnPAfr">
           Github
         </a>
-        <a class="btn-resume" href="https://google.com">
-          <i class="fas fa-file-pdf"></i>
+        <a class="home-btn" href="https://google.com">
           Resume
         </a>
       </div>
@@ -53,15 +51,14 @@
     <h2>projects</h2>
     <div class="project">
       <div class="project-desc">
-        <h3 class="project-title">title</h3>
+        <h3 class="project-title">portofolio</h3>
         <ul class="project-techs">
           <li>HTML</li>
           <li>CSS</li>
-          <li>JAVASCRIPT</li>
         </ul>
         <div class="project-links">
-          <div class="btn project-github">github</div>
-          <div class="btn project-live">live code</div>
+          <a class="btn" href="https://github.com/JohnPAfr/portofolio" target="_blank">github</a>
+          <a class="btn" href="#home">live code</a>
         </div>
       </div>
     </div>
@@ -71,7 +68,7 @@
         <ul class="project-techs">
           <li>HTML</li>
           <li>CSS</li>
-          <li>JAVASCRIPT</li>
+          <li>JAVASCRIPT</li> 
         </ul>
         <div class="project-links">
           <div class="btn project-github">github</div>
@@ -97,17 +94,19 @@
 
   <section class="about" id="about">
     <h2 class="about-me">about me</h2>
-    <p class="about-text">
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
-      magni quisquam commodi odit! A magni quis voluptas ipsa voluptatibus
-      tenetur eos, minima optio in sed mollitia consequuntur omnis beatae
-      culpa.
-    </p>
+    <div class="about-text">
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus
+        magni quisquam commodi odit! A magni quis voluptas ipsa voluptatibus
+        tenetur eos, minima optio in sed mollitia consequuntur omnis beatae
+        culpa.
+      </p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, quo architecto beatae culpa dolorem laboriosam repudiandae, ut doloremque blanditiis soluta iure tenetur itaque corrupti repellat atque, eligendi delectus nostrum dolor.</p>
+    </div>
+    
   </section>
 
   <footer class="footer">copyright JohnPA 2019</footer>
-
-  <script src="https://kit.fontawesome.com/241842f04f.js"></script>
 </body>
 
 </html>
